@@ -1,0 +1,14 @@
+﻿  3.3.c
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(12): error C2061: 语法错误: 标识符“stu”
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(16): error C2065: “p2”: 未声明的标识符
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(16): error C2065: “stu”: 未声明的标识符
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(16): error C2059: 语法错误:“)”
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(18): warning C4047: “初始化”:“int”与“void *”的间接级别不同
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(23): error C2059: 语法错误:“else”
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(25): error C2099: 初始值设定项不是常量
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(26): error C2374: “p1”: 重定义；多次初始化
+  D:\CodeSummary\LinuxC-master\linux-c\3.3.c(16): note: 参见“p1”的声明
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(26): error C2065: “stu”: 未声明的标识符
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(26): error C2059: 语法错误:“)”
+D:\CodeSummary\LinuxC-master\linux-c\3.3.c(47): fatal error C1071: 在注释中遇到意外的文件结束
