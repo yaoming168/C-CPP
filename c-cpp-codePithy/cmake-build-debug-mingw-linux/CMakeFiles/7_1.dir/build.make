@@ -56,61 +56,47 @@ include CMakeFiles/7_1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/7_1.dir/flags.make
 
-CMakeFiles/7_1.dir/11.2.cpp.obj: CMakeFiles/7_1.dir/flags.make
-CMakeFiles/7_1.dir/11.2.cpp.obj: ../11.2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\C-CPP\c-cpp-codePithy\cmake-build-debug-mingw-linux\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/7_1.dir/11.2.cpp.obj"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_1.dir\11.2.cpp.obj -c D:\CLionProjects\C-CPP\c-cpp-codePithy\11.2.cpp
-
-CMakeFiles/7_1.dir/11.2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7_1.dir/11.2.cpp.i"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\C-CPP\c-cpp-codePithy\11.2.cpp > CMakeFiles\7_1.dir\11.2.cpp.i
-
-CMakeFiles/7_1.dir/11.2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7_1.dir/11.2.cpp.s"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\C-CPP\c-cpp-codePithy\11.2.cpp -o CMakeFiles\7_1.dir\11.2.cpp.s
-
 CMakeFiles/7_1.dir/11.3/date.cpp.obj: CMakeFiles/7_1.dir/flags.make
 CMakeFiles/7_1.dir/11.3/date.cpp.obj: ../11.3/date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\C-CPP\c-cpp-codePithy\cmake-build-debug-mingw-linux\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/7_1.dir/11.3/date.cpp.obj"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_1.dir\11.3\date.cpp.obj -c D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\C-CPP\c-cpp-codePithy\cmake-build-debug-mingw-linux\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/7_1.dir/11.3/date.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_1.dir\11.3\date.cpp.obj -c D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\date.cpp
 
 CMakeFiles/7_1.dir/11.3/date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7_1.dir/11.3/date.cpp.i"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\date.cpp > CMakeFiles\7_1.dir\11.3\date.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\date.cpp > CMakeFiles\7_1.dir\11.3\date.cpp.i
 
 CMakeFiles/7_1.dir/11.3/date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7_1.dir/11.3/date.cpp.s"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\date.cpp -o CMakeFiles\7_1.dir\11.3\date.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\date.cpp -o CMakeFiles\7_1.dir\11.3\date.cpp.s
 
 CMakeFiles/7_1.dir/11.3/tdate.cpp.obj: CMakeFiles/7_1.dir/flags.make
 CMakeFiles/7_1.dir/11.3/tdate.cpp.obj: ../11.3/tdate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\C-CPP\c-cpp-codePithy\cmake-build-debug-mingw-linux\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/7_1.dir/11.3/tdate.cpp.obj"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_1.dir\11.3\tdate.cpp.obj -c D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\tdate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\C-CPP\c-cpp-codePithy\cmake-build-debug-mingw-linux\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/7_1.dir/11.3/tdate.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_1.dir\11.3\tdate.cpp.obj -c D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\tdate.cpp
 
 CMakeFiles/7_1.dir/11.3/tdate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7_1.dir/11.3/tdate.cpp.i"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\tdate.cpp > CMakeFiles\7_1.dir\11.3\tdate.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\tdate.cpp > CMakeFiles\7_1.dir\11.3\tdate.cpp.i
 
 CMakeFiles/7_1.dir/11.3/tdate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7_1.dir/11.3/tdate.cpp.s"
-	D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\tdate.cpp -o CMakeFiles\7_1.dir\11.3\tdate.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\C-CPP\c-cpp-codePithy\11.3\tdate.cpp -o CMakeFiles\7_1.dir\11.3\tdate.cpp.s
 
 # Object files for target 7_1
 7_1_OBJECTS = \
-"CMakeFiles/7_1.dir/11.2.cpp.obj" \
 "CMakeFiles/7_1.dir/11.3/date.cpp.obj" \
 "CMakeFiles/7_1.dir/11.3/tdate.cpp.obj"
 
 # External object files for target 7_1
 7_1_EXTERNAL_OBJECTS =
 
-7_1.exe: CMakeFiles/7_1.dir/11.2.cpp.obj
 7_1.exe: CMakeFiles/7_1.dir/11.3/date.cpp.obj
 7_1.exe: CMakeFiles/7_1.dir/11.3/tdate.cpp.obj
 7_1.exe: CMakeFiles/7_1.dir/build.make
+7_1.exe: CMakeFiles/7_1.dir/linklibs.rsp
 7_1.exe: CMakeFiles/7_1.dir/objects1.rsp
 7_1.exe: CMakeFiles/7_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\C-CPP\c-cpp-codePithy\cmake-build-debug-mingw-linux\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 7_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\C-CPP\c-cpp-codePithy\cmake-build-debug-mingw-linux\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 7_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\7_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

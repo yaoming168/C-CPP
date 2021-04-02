@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CLionProjects/C-CPP/c-cpp-codePithy/11.2.cpp" "D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/CMakeFiles/7_1.dir/11.2.cpp.obj"
   "D:/CLionProjects/C-CPP/c-cpp-codePithy/11.3/date.cpp" "D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/CMakeFiles/7_1.dir/11.3/date.cpp.obj"
   "D:/CLionProjects/C-CPP/c-cpp-codePithy/11.3/tdate.cpp" "D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/CMakeFiles/7_1.dir/11.3/tdate.cpp.obj"
   )

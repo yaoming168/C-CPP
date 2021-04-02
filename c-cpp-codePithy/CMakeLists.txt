@@ -5,4 +5,5 @@ project(7_1)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -Wall")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti -fno-exceptions -fPIC -Wall")
 
-add_executable(7_1 11.2.cpp 11.3/date.h 11.3/date.cpp 11.3/tdate.cpp)
+
+add_executable(7_1 11.3/date.h 11.3/date.cpp 11.3/tdate.cpp)

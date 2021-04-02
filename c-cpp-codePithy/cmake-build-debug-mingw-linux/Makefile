@@ -122,33 +122,6 @@ depend:
 	$(MAKE) -f CMakeFiles\7_1.dir\build.make CMakeFiles/7_1.dir/build
 .PHONY : 7_1/fast
 
-11.2.obj: 11.2.cpp.obj
-
-.PHONY : 11.2.obj
-
-# target to build an object file
-11.2.cpp.obj:
-	$(MAKE) -f CMakeFiles\7_1.dir\build.make CMakeFiles/7_1.dir/11.2.cpp.obj
-.PHONY : 11.2.cpp.obj
-
-11.2.i: 11.2.cpp.i
-
-.PHONY : 11.2.i
-
-# target to preprocess a source file
-11.2.cpp.i:
-	$(MAKE) -f CMakeFiles\7_1.dir\build.make CMakeFiles/7_1.dir/11.2.cpp.i
-.PHONY : 11.2.cpp.i
-
-11.2.s: 11.2.cpp.s
-
-.PHONY : 11.2.s
-
-# target to generate assembly for a file
-11.2.cpp.s:
-	$(MAKE) -f CMakeFiles\7_1.dir\build.make CMakeFiles/7_1.dir/11.2.cpp.s
-.PHONY : 11.2.cpp.s
-
 11.3/date.obj: 11.3/date.cpp.obj
 
 .PHONY : 11.3/date.obj
@@ -212,9 +185,6 @@ help:
 	@echo ... 7_1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 11.2.obj
-	@echo ... 11.2.i
-	@echo ... 11.2.s
 	@echo ... 11.3/date.obj
 	@echo ... 11.3/date.i
 	@echo ... 11.3/date.s

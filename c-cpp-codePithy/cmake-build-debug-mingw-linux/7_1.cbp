@@ -11,10 +11,10 @@
 				<Option working_dir="D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="7_1">
@@ -24,23 +24,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include"/>
-					<Add directory="/mingw/include"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 7_1"/>
-					<CompileFile command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 7_1"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="7_1/fast">
@@ -50,49 +45,41 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
-					<Add directory="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/../../../../include"/>
-					<Add directory="/mingw/include"/>
-					<Add directory="/mingw/lib/gcc/mingw32/3.4.5/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 7_1/fast"/>
-					<CompileFile command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 7_1/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/DevelopmentTools/MinGW-V5.1.6/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CLionProjects/C-CPP/c-cpp-codePithy/11.2.cpp">
-			<Option target="7_1"/>
-		</Unit>
 		<Unit filename="D:/CLionProjects/C-CPP/c-cpp-codePithy/11.3/date.cpp">
 			<Option target="7_1"/>
 		</Unit>
