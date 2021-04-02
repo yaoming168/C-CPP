@@ -1,0 +1,1 @@
+D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\g++.exe  -fno-rtti -fno-exceptions -fPIC -Wall -g   -Wl,@CMakeFiles\7_1.dir\objects1.rsp  -o 7_1.exe -Wl,--out-implib,lib7_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

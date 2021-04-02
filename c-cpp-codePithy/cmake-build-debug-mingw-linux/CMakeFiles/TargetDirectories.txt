@@ -1,0 +1,3 @@
+D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/CMakeFiles/7_1.dir
+D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/CMakeFiles/edit_cache.dir
+D:/CLionProjects/C-CPP/c-cpp-codePithy/cmake-build-debug-mingw-linux/CMakeFiles/rebuild_cache.dir

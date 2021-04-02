@@ -1,0 +1,90 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lgcc_eh
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld: error: unable to find library -lgcc_s
+lld: error: unable to find library -lgcc_s
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_80522/fast && D:/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles\cmTC_80522.dir\build.make CMakeFiles/cmTC_80522.dir/build
+make[1]: Entering directory 'D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80522.dir/testCCompiler.c.obj
+D:\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe    -o CMakeFiles\cmTC_80522.dir\testCCompiler.c.obj   -c D:\CLionProjects\7.1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_80522.exe
+"D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_80522.dir\link.txt --verbose=1
+"D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_80522.dir/objects.a
+D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\ar.exe cr CMakeFiles\cmTC_80522.dir/objects.a @CMakeFiles\cmTC_80522.dir\objects1.rsp
+D:\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe      -Wl,--whole-archive CMakeFiles\cmTC_80522.dir/objects.a -Wl,--no-whole-archive  -o cmTC_80522.exe -Wl,--out-implib,libcmTC_80522.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_80522.dir\linklibs.rsp
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lgcc_eh
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles\cmTC_80522.dir\build.make:88: cmTC_80522.exe] Error 1
+make[1]: Leaving directory 'D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:120: cmTC_80522/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lgcc_eh
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld: error: unable to find library -lgcc_s
+lld: error: unable to find library -lgcc_s
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_3bc36/fast && D:/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles\cmTC_3bc36.dir\build.make CMakeFiles/cmTC_3bc36.dir/build
+make[1]: Entering directory 'D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bc36.dir/testCCompiler.c.obj
+D:\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe    -o CMakeFiles\cmTC_3bc36.dir\testCCompiler.c.obj   -c D:\CLionProjects\7.1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_3bc36.exe
+"D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3bc36.dir\link.txt --verbose=1
+"D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3bc36.dir/objects.a
+D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3bc36.dir/objects.a @CMakeFiles\cmTC_3bc36.dir\objects1.rsp
+D:\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe      -Wl,--whole-archive CMakeFiles\cmTC_3bc36.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3bc36.exe -Wl,--out-implib,libcmTC_3bc36.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3bc36.dir\linklibs.rsp
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lgcc_eh
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles\cmTC_3bc36.dir\build.make:88: cmTC_3bc36.exe] Error 1
+make[1]: Leaving directory 'D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:120: cmTC_3bc36/fast] Error 2
+
+
+

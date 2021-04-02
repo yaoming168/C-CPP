@@ -1,0 +1,44 @@
+"D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -DCMAKE_C_COMPILER=D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -DCMAKE_CXX_COMPILER=D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -G "CodeBlocks - MinGW Makefiles" D:\CLionProjects\7.1
+-- The C compiler identification is Clang 11.0.5
+-- The CXX compiler identification is Clang 11.0.5
+-- Check for working C compiler: D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- broken
+CMake Error at D:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "D:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):D:/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe cmTC_3bc36/fast && D:/Android/Sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make.exe -f CMakeFiles\cmTC_3bc36.dir\build.make CMakeFiles/cmTC_3bc36.dir/build
+    make[1]: Entering directory 'D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_3bc36.dir/testCCompiler.c.obj
+    D:\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe    -o CMakeFiles\cmTC_3bc36.dir\testCCompiler.c.obj   -c D:\CLionProjects\7.1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    Linking C executable cmTC_3bc36.exe
+    "D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3bc36.dir\link.txt --verbose=1
+    "D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3bc36.dir/objects.a
+    D:\DevelopmentTools\MinGW-V5.1.6\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3bc36.dir/objects.a @CMakeFiles\cmTC_3bc36.dir\objects1.rsp
+    D:\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe      -Wl,--whole-archive CMakeFiles\cmTC_3bc36.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3bc36.exe -Wl,--out-implib,libcmTC_3bc36.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3bc36.dir\linklibs.rsp
+    lld: error: unable to find library -lgcc_eh
+    lld: error: unable to find library -lgcc_eh
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    make[1]: *** [CMakeFiles\cmTC_3bc36.dir\build.make:88: cmTC_3bc36.exe] Error 1
+    make[1]: Leaving directory 'D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    make: *** [Makefile:120: cmTC_3bc36/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/CLionProjects/7.1/cmake-build-debug/CMakeFiles/CMakeError.log".
