@@ -5,7 +5,7 @@ int main()
 	int a = 55, b = 66, *p = &a;
 
 	printf("&a:%p#p, &b:%#p, &p:%#p\n",&a, &b,&p);
-	printf("%d %d &a:%p#p &p:%p#P\n",a,b,p &p);
+//	printf("%d %d &a:%p#p &p:%p#P\n",a,b,p &p);
 
 	a = 88;
 	*p = a;
