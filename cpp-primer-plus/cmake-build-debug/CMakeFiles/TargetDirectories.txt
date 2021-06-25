@@ -1,0 +1,3 @@
+D:/CLionProjects/C-CPP/cpp-primer-plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/CLionProjects/C-CPP/cpp-primer-plus/cmake-build-debug/CMakeFiles/cpp_primer_plus.dir
+D:/CLionProjects/C-CPP/cpp-primer-plus/cmake-build-debug/CMakeFiles/edit_cache.dir
